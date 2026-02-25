@@ -8,7 +8,7 @@ Simple peer-to-peer chat demo using an ESP32 (or similar) with a PN532 over I2C.
 - Wiring (default pins in sketch):
   - PN532 SDA -> GPIO 8
   - PN532 SCL -> GPIO 9
-  - 3V3 and GND as usual
+  - 3V3 and GND as usual (if doesn't work try 5V)
 
 ## Configure
 Key defines are at the top of `rfid-chat.ino`:
