@@ -12,7 +12,7 @@ Simple peer-to-peer chat demo using an ESP32 (or similar) with a PN532 over I2C.
 
 ## Configure
 Key defines are at the top of `rfid-chat.ino`:
-- `ROLE_INITIATOR` : set to 1 for initiator, 0 for target
+- `ROLE_INITIATOR` : set to 1 for initiator (sender), 0 for target (reciever)
 - `NFC_SDA` / `NFC_SCL` : I2C pins
 - `I2C_SPEED` : I2C clock (default 400 kHz)
 - `SERIAL_BAUD` : serial console speed (115200)
