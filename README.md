@@ -3,7 +3,7 @@
 Simple peer-to-peer chat demo using an ESP32 (or similar) with a PN532 over I2C. One device acts as the **initiator** and sends lines typed over serial; the other is the **target** and replies with an ACK containing its random ID.
 
 ## Hardware
-- ESP32 board (tested with ESP32-S3 style pinout)
+- ESP32 board (tested with ESP32-C3 super mini)
 - PN532 NFC module (I2C mode)
 - Wiring (default pins in sketch):
   - PN532 SDA -> GPIO 8
